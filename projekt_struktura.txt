@@ -1,0 +1,33 @@
+my-portfolio/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── header/
+│   │   │   ├── footer/
+│   │   │   ├── home/
+│   │   │   ├── timeline/ (studies + work experience kombinálva)
+│   │   │   ├── projects/
+│   │   │   └── activities/
+│   │   ├── models/
+│   │   │   ├── timeline-item.model.ts
+│   │   │   ├── project.model.ts
+│   │   │   └── activity.model.ts
+│   │   ├── services/
+│   │   │   ├── data.service.ts
+│   │   ├── app-routing.module.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.scss
+│   │   ├── app.component.ts
+│   │   └── app.module.ts
+│   ├── assets/
+│   │   ├── images/
+│   │   └── data/
+│   │       ├── timeline-data.json
+│   │       ├── projects-data.json
+│   │       └── activities-data.json
+│   ├── environments/
+│   ├── index.html
+│   └── styles.scss
+├── angular.json
+├── package.json
+└── tsconfig.json
